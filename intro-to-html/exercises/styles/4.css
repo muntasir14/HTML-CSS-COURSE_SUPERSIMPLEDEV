@@ -1,0 +1,59 @@
+
+.stretch-button {
+    background-color: green;
+    color: white;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: none;
+    transition: padding 0.15s;
+  }
+
+  .stretch-button:hover {
+    padding-top: 16px;
+    padding-bottom: 16px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .shadow-button {
+    margin-top: 8px;
+    background-color: green;
+    color: white;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: none;
+    transition: box-shadow 0.15s,
+      transform 0.15s;
+  }
+
+  .shadow-button:hover {
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
+    transform: translate(-3px, -3px);
+  }
+
+
+  .clickable-button {
+    margin: 16px;
+    padding: 10px 20px;
+    background-color: #3498db;
+    border: none;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    transition: transform 0.3s, box-shadow 0.3s;
+    outline: none;
+  }
+
+.clickable-button:hover {
+  transform: translate(0, 3px);
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2);
+}
+
+.clickable-button:active {
+  transform: translate(0, 5px);
+  box-shadow: none;
+}

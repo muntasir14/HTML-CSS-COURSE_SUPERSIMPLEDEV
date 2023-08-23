@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+
+<html>
+
+  <head>
+    <title>Exercise-7</title>
+    <style>
+      .nature-image {
+        width: 200px;
+        height: 200px;
+        object-fit: cover;
+        object-position: center;
+        border-radius: 100px;
+        margin-bottom: 20px;
+      }
+
+      .rounded-search {
+        border-radius: 8px;
+        width: 160px;
+        height: 30px;
+        font-size: 16px;
+        border-width: 1px;
+        border-color: gray;
+        padding-left: 8px;
+        margin-bottom: 20px;
+      }
+
+      .google-url-search {
+        width: 250px;
+        height: 35px;
+        border-radius: 18px;
+        border: none;
+        box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.15);
+        padding-left: 30px;
+        margin-bottom: 20px;
+      }
+
+      .twitter-div {
+        /* vertical-align: middle; */
+      }
+
+      .search-image {
+        height: 36px;
+        width: 36px;
+        object-fit: cover;
+        object-position: center;
+        border-radius: 28px;
+        vertical-align: middle;
+      }
+
+      .input-text {
+        border:none;
+        padding-left: 8px;
+        vertical-align: middle;
+        margin-right: 0px;
+      }
+
+      .tweet-button {
+        border: none;
+        color: white;
+        background-color: rgb(89, 160, 219);
+        border-radius: 16px;
+        padding: 8px 12px 8px 12px;
+        margin-left: 0px;
+      }
+    </style>
+  </head>
+
+  <body>
+
+    <img class="nature-image" 
+      src="res/nature.jpg">
+
+    <br>
+    <input class="rounded-search" 
+      type="text" 
+      placeholder="Search">
+    <br>
+    <input class="google-url-search"
+      type="text"
+      placeholder="Search Google or type a URL">
+
+    <br>
+
+    <div class="twitter-div">
+      <img class="search-image"
+        src="res/nature.jpg">
+      <input class="input-text"
+        type="text"
+        placeholder="What's happening?">
+      <button class="tweet-button">
+        Tweet
+      </button>
+    </div>
+  </body>
+
+</html>

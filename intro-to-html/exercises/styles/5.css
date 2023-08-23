@@ -1,0 +1,46 @@
+
+.tahoma-text {
+    font-family: Tahoma;
+    color: black;
+    background-color: white;
+    font-weight: bold;
+  }
+
+  .deals-text {
+    font-family: Arial;
+    color: black;
+    font-weight: bold;
+    margin-bottom: 0;
+  }
+
+  .sales-text {
+    font-family: Arial;
+    color: red;
+    font-style: italic;
+    font-size: 16px;
+    margin-top: 8px;
+  }
+
+  .shopping-text {
+    font-weight: bold;
+    font-family: Arial;
+    text-align: center;
+    font-size: 22px;
+  }
+
+  .see-apple-text {
+    font-family: Arial;
+    font-size: 16px;
+    text-align: center;
+  }
+
+  .learn-more-text {
+    font-family: Arial;
+    font-size: 16px;
+    color: blue;
+    text-align: center;
+  }
+
+  .learn-more-text:hover {
+    text-decoration: underline;
+  } 
