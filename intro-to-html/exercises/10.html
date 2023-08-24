@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <title>Exercise-10</title>
+    <style>
+      p {
+        margin-top: 0px;
+        margin-bottom: 0px;
+        line-height: 20px;
+        text-align: center;
+      }
+      .out-div {
+        height: 100px;
+        width: 350px;
+        border: 1px solid rgb(200, 200, 200);
+        display: inline-block;
+      }
+
+      .image-div {
+        position: relative;
+        top: 50%;
+        transform: translateY(-50%);
+        display: inline-block;
+        height: 60px;
+        width: 60px;
+        
+        padding-left: 12px;
+        padding-right: 12px;
+      }
+
+      .profile-image {
+        width: 60px;
+        height: 60px;
+        object-fit: cover; 
+        border-radius: 35px;
+      }
+
+      .info-div {
+        position: relative;
+        display: inline-block;
+        top: 50%;
+        transform: translateY(-50%);
+      }
+
+      .attribute-text,
+      .type-text {
+        color: rgb(139, 139, 139);
+      }
+
+      .button-div {
+        /* position: relative;
+        top: 50%;
+        transform: translateY(-50%); */
+        display: inline-block;
+      }
+
+    </style>
+  </head>
+  <body>
+    <div class="out-div">
+      <div class="image-div">
+        <img class="profile-image"
+          src="res/nature.jpg">
+      </div>
+      <div class="info-div">
+        <p>
+          oliver
+        </p>
+        <p class="type-text">
+          the cat
+        </p>
+        <p class="attribute-text">
+          Popular
+        </p>
+      </div>
+      <div class="button-div">
+        <button>
+          Follow
+        </button>
+      </div>
+    </div>
+  </body>
+</html>
