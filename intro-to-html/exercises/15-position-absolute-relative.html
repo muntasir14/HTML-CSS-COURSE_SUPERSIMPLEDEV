@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <title>Absolute and Relative Practice</title>
+    <style>
+      body {
+        height: 3000px;
+      }
+      
+      .close-button {
+        background-color: black;
+        color: white;
+        position: absolute;
+        right: 12px;
+        top: 12px;
+        border: none;
+        height: 30px;
+        width: 30px;
+        border-radius: 15px;
+      }
+      
+      .bottom-div {
+        width: 320px;
+        height: 180px;
+        background-color: gray;
+        position: fixed;
+        right: 20px;
+        bottom: 20px;
+      }
+
+      .close-button-inside {
+        background-color: black;
+        color: white;
+        position: absolute;
+        left: -25px;
+        top: -25px;
+        border: none;
+        height: 50px;
+        width: 50px;
+        border-radius: 25px;
+      }
+
+    </style>
+  </head> 
+  
+  <body>
+    <button class="close-button">X</button>
+    <div class="bottom-div">
+      <button class="close-button-inside">X</button>
+    </div>
+  </body>
+</html>
